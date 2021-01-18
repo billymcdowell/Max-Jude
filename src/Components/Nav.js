@@ -38,7 +38,7 @@ const toggleDarkmode = e => {if(darkmode === true) {
       <nav id="nav">
         <NavDrawer state={navbar} />
         <Link to="/">
-          I AM <strong>UX</strong>
+          <img className={navbar ? "logo-scrolled": "logo-unscrolled"} src="/img/Logo/Logo.png" alt="Logo" style={{ filter: "invert(1)" }}/>
         </Link>
       </nav>
       <div className={
